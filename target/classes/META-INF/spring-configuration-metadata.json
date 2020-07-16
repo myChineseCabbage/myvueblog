@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "jwt.config",
+      "type": "com.zxb.myvueblog.utils.JwtUtils",
+      "sourceType": "com.zxb.myvueblog.utils.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.config.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.zxb.myvueblog.utils.JwtUtils",
+      "defaultValue": 0
+    },
+    {
+      "name": "jwt.config.header",
+      "type": "java.lang.String",
+      "sourceType": "com.zxb.myvueblog.utils.JwtUtils",
+      "defaultValue": "Authorization"
+    },
+    {
+      "name": "jwt.config.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.zxb.myvueblog.utils.JwtUtils"
+    }
+  ],
+  "hints": []
+}

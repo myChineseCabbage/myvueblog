@@ -1,0 +1,1 @@
+package com.zxb.myvueblog.utils;import com.zxb.myvueblog.shiro.AccountProfile;import org.apache.shiro.SecurityUtils;public class ShiroUtil {    public  static AccountProfile getPtofile(){        return (AccountProfile)SecurityUtils.getSubject().getPrincipal();    }}
